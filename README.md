@@ -1,40 +1,43 @@
-🍴 MERN College Canteen
+# 🍴 MERN College Canteen
 
-A full-stack MERN application designed to digitalize and streamline the college canteen experience.
-The system provides:
+A full-stack MERN application designed to **digitalize and streamline the college canteen experience**.  
 
-Student-facing client to browse menu & place orders
+This system provides:  
+- 🎓 **Student App** – Browse menu & place orders  
+- 🛠️ **Admin Dashboard** – Manage items, orders, and sales statistics  
+- ⚡ **Backend API** – Node.js + Express with secure authentication & MongoDB  
 
-Admin dashboard for managing items, orders, and sales statistics
+---
 
-Backend API built on Node.js + Express with secure authentication and database integration
+## 📂 Project Structure  
 
-📂 Project Structure
-Canteen/
-│── backend/              # Node.js + Express + MongoDB REST API
-│   ├── models/           # Mongoose schemas (User, Items, Orders, Cart)
-│   ├── routes/           # API routes (auth, items, cart, orders, sales)
-│   ├── controllers/      # Controller logic for CRUD operations
-│   ├── middlewares/      # Auth middleware, Multer, uploads, error handling
-│   ├── utils/            # bcrypt, JWT, Cloudinary helpers
-│   ├── connect.js        # MongoDB connection
-│   └── server.js         # Backend entrypoint
-│
-│── admin/                # React admin dashboard
-│   ├── src/
-│   │   ├── components/   # UI components (charts, tables, order cards)
-│   │   ├── pages/        # Pages (Orders, Analytics, Inventory, Users)
-│   │   ├── context/      # Context API for admin state
-│   │   └── utils/        # Debouncing, custom hooks
-│
-│── client/               # React student app
-│   ├── src/
-│   │   ├── components/   # Menu, Cart, Checkout
-│   │   ├── pages/        # Home, Orders, Profile
-│   │   ├── context/      # Cart & Auth context
-│   │   └── utils/        # Debouncing search, API helpers
-│
-└── README.md             # Project Documentation
+```bash
+Canteen/  
+│── backend/                # Node.js + Express + MongoDB REST API  
+│   ├── models/             # Mongoose schemas (User, Items, Orders, Cart)  
+│   ├── routes/             # API routes (auth, items, cart, orders, sales)  
+│   ├── controllers/        # Controller logic for CRUD operations  
+│   ├── middlewares/        # Auth middleware, Multer, uploads, error handling  
+│   ├── utils/              # bcrypt, JWT, Cloudinary helpers  
+│   ├── connect.js          # MongoDB connection  
+│   └── server.js           # Backend entrypoint  
+
+│── admin/                  # React admin dashboard  
+│   ├── src/  
+│   │   ├── components/     # UI components (charts, tables, order cards)  
+│   │   ├── pages/          # Pages (Orders, Analytics, Inventory, Users)  
+│   │   ├── context/        # Context API for admin state  
+│   │   └── utils/          # Debouncing, custom hooks  
+
+│── client/                 # React student app  
+│   ├── src/  
+│   │   ├── components/     # Menu, Cart, Checkout  
+│   │   ├── pages/          # Home, Orders, Profile  
+│   │   ├── context/        # Cart & Auth context  
+│   │   └── utils/          # Debouncing search, API helpers  
+
+└── README.md               # Project Documentation  
+
 
 🚀 Features
 🔒 Authentication & Security
