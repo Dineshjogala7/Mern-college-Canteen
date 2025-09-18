@@ -1,0 +1,26 @@
+[
+  {
+    "question": "How to Order from this Canteen?",
+    "answer": "Use your college email for verification and then log in to the portal."
+  },
+  {
+    "question": "What are the Canteen Working Hours?",
+    "answer": "The canteen is open from 9:00 AM to 7:00 PM, Monday to Saturday."
+  },
+  {
+    "question": "Can I Pay Online?",
+    "answer": "Yes, we accept UPI, credit/debit cards, and net banking payments."
+  },
+  {
+    "question": "Is There a Delivery Option?",
+    "answer": "Currently, orders must be picked up at the canteen counter."
+  },
+  {
+    "question": "Can I Cancel My Order?",
+    "answer": "Orders can be canceled within 5 minutes of placing them, otherwise charges may apply."
+  },
+  {
+    "question": "Do You Offer Discounts for Students?",
+    "answer": "Yes, students with valid ID cards occasionally receive discounts during special events."
+  }
+]
